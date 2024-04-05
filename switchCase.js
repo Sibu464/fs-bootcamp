@@ -30,3 +30,4 @@ switch (operator) {
       console.log('Invalid operator. Please enter either *, +, -, or /.');
       break;
   }
+  
