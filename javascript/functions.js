@@ -1,8 +1,17 @@
 //"use strict"
 
-let x=10;
-function myFun(y=0){
-     y=x+2;
-    console.log(y);
+let x=3;
+function myFun(x){
+    x=2;
+    console.log(x);
+    //return y
 }
-myFun()
+console.log(myFun())
+let z=myFun();// function invoked
+
+function multiply(a){
+    return a*2;
+}
+console.log(multiply(2));
+
+
