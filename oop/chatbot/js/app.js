@@ -21,3 +21,6 @@ function talk(){
         document.getElementById("chatLog").innerHTML="Nonsense<br>"
     }
 }
+function test(){
+    console.log("test");
+}

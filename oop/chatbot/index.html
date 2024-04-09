@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/app.js"></script>
+
   
 </head>
 <body>
@@ -12,13 +14,14 @@
     <div class="glass">
         <h1>Ask your Q</h1>
         <div class="input">
-            <input type="text" id="userBox" onkeydown="if(event.KeyCode == 13){ talk()}"
-            placeholder="What's up?"/>
+            <input type="text" id="userBox" onkeydown="if(event.keyCode == 13){ talk();
+            test();
+             }" placeholder="What's up?" />
+
         </div>
         <p id="chatLog">Response:</p>
 
     </div>
 </body>
-<script type="text/javascript" src="js/app.js">
-</script>
+
 </html>
